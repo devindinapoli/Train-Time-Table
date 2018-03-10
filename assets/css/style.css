@@ -1,0 +1,22 @@
+.jumbotron{
+    text-align: center;
+    background-image: url("../biggie_thomas.jpg");
+}
+p{
+    color: white
+}
+body{
+    background-color: rgb(79,174,252)
+}
+h2{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.card{
+    margin-top: 8px;
+}
+.play{
+    background-color: rgb(79,174,252);
+    border: none;
+}
