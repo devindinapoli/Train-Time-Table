@@ -10,7 +10,6 @@ var config = {
 firebase.initializeApp(config);
 
 //declare global variables 
-
 var database = firebase.database();
 var name = "";
 var destination = "";
@@ -66,14 +65,3 @@ $("#submit-button").on("click", function(event){
   $("#time-input").val("");
   $("#frequency-input").val(""); 
 });
-
-//music
-var audioElement = document.createElement("audio");
-audioElement.setAttribute("src", "assets/thomas_the_dank_engine.mp3");
-        
-$("#musicControls").on("click", ".theme-button", function() {
-  audioElement.play();
-  }).on("click", ".pause-button", function() {
-  audioElement.pause();
-});
-

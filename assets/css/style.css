@@ -1,6 +1,7 @@
 .jumbotron{
     text-align: center;
-    background-image: url("../biggie_thomas.jpg");
+    background-image: url("../biggie_thomas.jpg"); /* I have a more *formal* version of this assignment for my portfolio */
+    height: 350px;
 }
 p{
     color: white
